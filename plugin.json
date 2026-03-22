@@ -1,0 +1,8 @@
+{
+  "name": "autoimprove-agents",
+  "version": "1.0.0",
+  "description": "Modular CLAUDE.md + project/cross-project KB + self-improvement loop",
+  "agents": ["agents/cross-project-kb.md"],
+  "commands": ["commands/setup.md", "commands/init.md", "commands/sync-kb.md", "commands/review-kb.md", "commands/self-improve.md"],
+  "hooks": "hooks/hooks.json"
+}
